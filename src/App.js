@@ -7,23 +7,23 @@ import Exampleform from './Exampleform';
 
 // import Logins from './Logins';
 // import Logins from './Logins';
-// import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Router } from "react-router-dom";
 
 function App() {
   return (
     <div>
-      <Demo />
-      <Login />
-      <div>Useeffect1</div>
-      <Useeffect1/>
-      <A/>
-      <Exampleform/>
+      {/* <Demo /> */}
+      {/* <Login /> */}
+      {/* <div>Useeffect1</div> */}
+      {/* <Useeffect1/> */}
+      {/* <A/> */}
+      {/* <Exampleform/> */}
       {/* <Logins/> */}
 
-      {/* <Routes>
+      <Routes>
         <Route path="/" element={<Demo />}/>
         <Route path="/dd" element={<Login />} />
-      </Routes> */}
+      </Routes>
     </div>
   );
 }
